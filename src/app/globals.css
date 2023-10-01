@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-custom-image{
+  background-image: linear-gradient(to right, rgb(0 0 0/.7), rgb(0 0 0/.8)), url("/img/hero.jpg");
+}
+.bg-custom-image-sharkion{
+  background-image: linear-gradient(to right, rgb(0 0 0/.7), rgb(0 0 0/.8)), url("/img/sharkionpage.png");
+}
+.bg-custom-image-mamnv{
+  background-image: linear-gradient(to right, rgb(0 0 0/.7), rgb(0 0 0/.8)), url("/img/mamnvpage.png");
+}
+.bg-custom-image-lefant{
+  background-image: linear-gradient(to right, rgb(0 0 0/.7), rgb(0 0 0/.8)), url("/img/lefantpage.png");
+}
+.bg-custom-image-zcwa{
+  background-image: linear-gradient(to right, rgb(0 0 0/.7), rgb(0 0 0/.8)), url("/img/zcwapage.png");
+}
