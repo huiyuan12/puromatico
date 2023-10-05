@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className='p-4  bg-gray-800 text-white'>
        <div className='container mx-auto flex justify-around items-center'>
-       <Link href="/"><Image src="/img/logo4.png" alt='Imagen Logo puromatico' width={200} height={200} className='text-white'></Image></Link>
+       <Link href="/"><Image src="/img/logo2.png" alt='Imagen Logo puromatico' width={200} height={200} className='text-white'></Image></Link>
         <nav>
             <ul className='flex gap-5 '>
                 <li className='hover:text-blue-200'>
