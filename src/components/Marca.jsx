@@ -12,7 +12,7 @@ function Marca({marca}) {
           <h3 className='text-2xl font-bold'>{nombre.toUpperCase() }</h3>
           <Image src={imagen} width={300} height={200} alt="Imagen Aspirador Robot Shark"/>
           </Link>
-          <a href={enlace} className='bg-amber-500 p-2 border-black flex items-center gap-2 text-center text-2xl hover:bg-amber-400 transition-all duration-100 border border-black-500 mt-2 w-fit justify-center'> <AiOutlineShoppingCart/> Ver producto en amazon</a>
+          <a href={enlace} className='bg-amber-500 p-2 border-black flex items-center gap-2 text-center text-xl hover:bg-amber-400 transition-all duration-100 border border-black-500 mt-2 w-fit justify-center'> <AiOutlineShoppingCart/> Ver producto en amazon</a>
         </div>
   )
 }
