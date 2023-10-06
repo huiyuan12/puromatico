@@ -9,7 +9,7 @@ export default function Home() {
     <main 
         className={`h-screen bg-no-repeat bg-cover bg-center container mx-auto flex items-center flex-col bg-custom-image ${open_sans.className}`}
         > 
-        <h1 className=' md:mt-28 mt-11 text-center md:px-20 font-extrabold text-4xl text-white'>
+        <h1 className=' md:mt-28 mt-11 text-center md:px-20 font-extrabold text-6xl text-white'>
         Robot Aspiradores: La Revolución en la Limpieza del Hogar
         </h1>
         <p className='md:mt-28 mt-11 text-center md:text-left md:text-2xl flex justify-center md:px-40 text-white'>

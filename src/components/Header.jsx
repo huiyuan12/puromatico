@@ -17,9 +17,14 @@ function Header() {
                 <li className='  text-white  rounded focus:outline-none cursor-pointer mb-2 hover:text-blue-200'>Marcas</li>
                 <ul className='absolute hidden space-y-2 bg-white text-gray-700 border border-gray-300 shadow-md group-hover:block p-2'>
                 {marcas.map(marca=> <li key={marca.id}> <Link className="block px-4 py-2 hover:bg-blue-100" href={`/marcas/${marca.nombre}`}> {marca.nombre.charAt(0).toUpperCase() + marca.nombre.slice(1).toLocaleLowerCase()}</Link></li>)}
-
                 </ul>
                 </div>
+                <li className='hover:text-blue-200'>
+                    <Link href="/">Mejor Robot Aspirador</Link>
+                </li>
+                <li className='hover:text-blue-200'>
+                    <Link href="/">Blog y preguntas frecuentes</Link>
+                </li>
             </ul>
         </nav>
         
