@@ -14,7 +14,7 @@ function SharkionPage() {
       Ideal para Pisos Duros, pelo de mascotas y alfombras
       </p>
       <button className='bg-blue-600 px-10 rounded-xl py-2 w-fit mt-60 text-xl text-white hover:bg-blue-500 transition-all duration-200'>
-        <a href="https://www.amazon.com/-/es/aspiradora-alfombra-AV751-conexi%C3%B3n-funcionamiento/dp/B08634VWVF/ref=sr_1_8?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=robot%2Baspirador&sr=8-8&th=1">Comprar SharkION</a></button>
+        <a href="https://www.amazon.com/-/es/aspiradora-alfombra-AV751-conexi%C3%B3n-funcionamiento/dp/B08634VWVF">Comprar SharkION</a></button>
       </div>
     </div>
     <div>

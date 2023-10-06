@@ -17,3 +17,7 @@
 .bg-custom-image-zcwa{
   background-image: linear-gradient(to right, rgb(0 0 0/.7), rgb(0 0 0/.8)), url("/img/zcwapage.png");
 }
+
+.font{
+  font-family: ;
+}

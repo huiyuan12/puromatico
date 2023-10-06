@@ -1,12 +1,13 @@
 import Section1 from '@/components/Section1'
 import Section2 from '@/components/Section2'
 import Section3 from '@/components/Section3'
-
+import { Open_Sans } from 'next/font/google'
+const open_sans = Open_Sans({ subsets: ['latin'] })
 export default function Home() {
   return (
 <>
-    <main
-        className="h-screen bg-no-repeat bg-cover bg-center container mx-auto flex items-center flex-col bg-custom-image " 
+    <main 
+        className={`h-screen bg-no-repeat bg-cover bg-center container mx-auto flex items-center flex-col bg-custom-image ${open_sans.className}`}
         > 
         <h1 className=' md:mt-28 mt-11 text-center md:px-20 font-extrabold text-4xl text-white'>
         Robot Aspiradores: La Revolución en la Limpieza del Hogar
