@@ -12,7 +12,9 @@ function page() {
       <p className='text-center text-white text-2xl '>
       Ideal para Pisos Duros, pelo de mascotas y alfombras
       </p>
-      <button className='bg-blue-600 px-10 rounded-xl py-2 w-fit mt-60 text-xl text-white hover:bg-blue-500 transition-all duration-200'>Comprar ZCWA</button>
+      <button className='bg-blue-600 px-10 rounded-xl py-2 w-fit mt-60 text-xl text-white hover:bg-blue-500 transition-all duration-200'>
+      <a href="https://www.amazon.com/aspirador-autom%C3%A1tica-mascotas-limpieza-M210/dp/B08R9LK9K3/">Comprar LEFANT</a>
+      </button>
       </div>
     </div>
     <div>
