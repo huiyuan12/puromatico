@@ -27,7 +27,7 @@ function Navbar() {
             </ul>}
             </li>
 
-            <li className='text-black'>
+            <li className='text-black  border-b-2'>
             <div className='flex justify-between px-5 '>
             <p className=' py-2 font-bold ' > Tipos   </p> 
             <button onClick={()=>{setOpenTipos(!openTipos); setOpenMarcas(false)}}> {openTipos? "X ":"Y"}</button>
@@ -40,6 +40,13 @@ function Navbar() {
                 <li > <Link className="block px-4 py-2 hover:bg-blue-100" href={`/tipos/`}> Todo en uno </Link></li> 
                 </ul>
             }
+            </li>
+                
+            <li className='text-black border-b-2 font-bold px-3 text-center '>
+            <Link href="/mejor-robot-aspirador">Mejor robot de limpieza</Link>
+            </li>
+            <li className='text-black pt-2 font-bold px-3 text-center'>
+            <Link href="/blog">Blog</Link>
             </li>
         </ul>
     </nav>

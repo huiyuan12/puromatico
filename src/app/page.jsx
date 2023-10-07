@@ -8,17 +8,17 @@ import { useState } from 'react'
 const open_sans = Open_Sans({ subsets: ['latin'] })
 export default function Home() {
   return (
-<div >
+<div className='' >
   
     <main 
         className={` bg-black h-screen bg-no-repeat bg-cover bg-center container mx-auto flex items-center flex-col bg-custom-image ${open_sans.className}`}
         > 
-        <h1 className=' md:mt-28 mt-11 text-center md:px-20 font-extrabold text-6xl text-white'>
+        <h1 className=' md:mt-28 mt-11 text-center md:px-20 font-extrabold text-5xl text-white mx-10'>
         Robot Aspiradores: La Revolución en la Limpieza del Hogar
         </h1>
-        <p className='md:mt-28 mt-11 text-center md:text-left md:text-2xl flex justify-center md:px-40 text-white'>
-        En la era moderna, la tecnología ha transformado la forma en que realizamos las tareas cotidianas. Un ejemplo claro de esto es la evolución de los robot aspiradores, que han revolucionado la limpieza del hogar. En esta página web y tienda en línea, te guiaremos a través del emocionante mundo de los robot aspiradores, brindándote información detallada, reseñas, comparaciones y recomendaciones para encontrar el dispositivo perfecto para tu hogar.
-        </p>
+        <p className='md:mt-28 mt-11 text-center md:text-left md:text-xl flex justify-center mx-20 md:px-40 text-white'>
+        Automatiza la limpieza con la tecnología del momento con un dispositivo diseñado para limpiar suelos de manera autónoma y sin necesidad de intervención humana constante
+         </p>
       </main>
         <Section1/>
         <Section2/>

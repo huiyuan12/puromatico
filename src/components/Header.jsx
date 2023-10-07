@@ -29,10 +29,10 @@ function Header() {
                 </ul>
                 </div>
                 <li className='hover:text-blue-200'>
-                    <Link href="/">Mejor robot de limpieza</Link>
+                    <Link href="/mejor-robot-aspirador">Mejor robot de limpieza</Link>
                 </li>
                 <li className='hover:text-blue-200'>
-                    <Link href="/">Blog y preguntas frecuentes</Link>
+                    <Link href="/blog">Blog y preguntas frecuentes</Link>
                 </li>
             </ul>
         </nav>
