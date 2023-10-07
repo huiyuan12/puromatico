@@ -37,9 +37,15 @@ export const marcas=[
         enlace:"https://www.amazon.es/OKP-K5-Compatible-Aspiradores-Silenciosos/dp/B0BB75H75T/"
     },
     {
-        id:6,
+        id:7,
         nombre:"LEFANT",
         imagen:"/img/lefant.jpg",
         enlace:"https://www.amazon.es/OKP-K5-Compatible-Aspiradores-Silenciosos/dp/B0BB75H75T/"
+    },
+    {
+        id:8,
+        nombre:"dreame",
+        imagen:"/img/dreame.png",
+        enlace:"https://www.amazon.es/Dreame-Aspirador-navegaci%C3%B3n-detallado-compatibilidad/dp/B0BYSTFCPG/"
     },
 ]

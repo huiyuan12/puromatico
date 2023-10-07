@@ -5,9 +5,9 @@ import { marcas } from '@/data/marcas'
 function Header() {
   return (
     <header className='p-4  bg-gray-800 text-white'>
-       <div className='container mx-auto flex justify-around items-center'>
+       <div className='container mx-auto flex md:justify-around justify-center md:items-center '>
        <Link href="/"><Image src="/img/logo2.png" alt='Imagen Logo puromatico' width={200} height={200} className='text-white'></Image></Link>
-        <nav>
+        <nav className='hidden md:block'>
             <ul className='flex gap-5 '>
                 <li className='hover:text-blue-200'>
                     <Link href="/">Inicio</Link>
@@ -29,14 +29,13 @@ function Header() {
                 </ul>
                 </div>
                 <li className='hover:text-blue-200'>
-                    <Link href="/">Mejor Robot Aspirador</Link>
+                    <Link href="/">Mejor robot de limpieza</Link>
                 </li>
                 <li className='hover:text-blue-200'>
                     <Link href="/">Blog y preguntas frecuentes</Link>
                 </li>
             </ul>
         </nav>
-        
        </div>
     </header>
   )

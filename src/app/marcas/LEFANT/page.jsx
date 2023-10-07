@@ -7,7 +7,7 @@ function page() {
       <div className='bg-custom-image-lefant  bg-cover h-screen bg-center bg-no-repeat flex flex-col items-center'>
 
   
-      <h1 className='text-center text-4xl font-bold text-white py-20'>Aspirador Robot Automático LEFANT</h1>
+      <h1 className='text-center text-4xl font-bold text-white py-20'>Robot Aspirador LEFANT</h1>
       <p className='text-center text-white text-2xl '>
       Ideal para Pisos Duros, pelo de mascotas y alfombras
       </p>
